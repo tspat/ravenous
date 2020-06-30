@@ -1,11 +1,11 @@
 import React from 'react'
 import './Business.css'
 import ReactDOM from 'react-dom'
-import { ReactComponent } from '*.svg'
 
 
 
-let business = {
+
+const business = {
     imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
     name: 'MarginOtto Pizzeria', 
     address: '1010 Paddington Way', 
@@ -44,4 +44,4 @@ class Business extends React.Component {
     }
 }
 
-export default Business
+export default Business;
